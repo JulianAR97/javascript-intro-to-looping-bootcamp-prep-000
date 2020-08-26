@@ -18,7 +18,8 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(num) {
+  var idx = 0;
   do {
     console.log('I run once regardless.')
-  } while (num++ < 10);
+  } while (idx++ < num);
 }
