@@ -19,6 +19,6 @@ function whileLoop(n) {
 
 function doWhileLoop(num) {
   do {
-    'I run once regardless.'
+    console.log('I run once regardless.')
   } while (num++ < 10);
 }
