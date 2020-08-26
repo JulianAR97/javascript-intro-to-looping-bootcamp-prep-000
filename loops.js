@@ -21,5 +21,5 @@ function doWhileLoop(num) {
   var idx = 0;
   do {
     console.log('I run once regardless.')
-  } while (idx++ < num);
+  } while (idx++ < num - 1);
 }
